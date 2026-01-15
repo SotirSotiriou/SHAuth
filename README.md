@@ -1,3 +1,6 @@
+# SHAuth
+## Modrinth: https://modrinth.com/mod/shauth
+
 # Usage
 This mod provides **a more advanced way to protect your server**. It is used on cracked servers in order to prevent account stealing and player coordinate leakage.
 
@@ -22,7 +25,7 @@ When a player tries to connect to a server, SHAuth contacts the server and **ver
 
 
 # Commands
-- **/shauth authorize <username>** - Assigns a key to a player and authorizes them.
-- **/shauth unauthorize <username>** - Revokes authorization for a player.
-- **/shauth reset <username>** - Resets the key associated with a player (useful if the key gets leaked).
+- **/shauth authorize \<username>** - Assigns a key to a player and authorizes them.
+- **/shauth unauthorize \<username>** - Revokes authorization for a player.
+- **/shauth reset \<username>** - Resets the key associated with a player (useful if the key gets leaked).
 - **/shauth list** - Displays authorized users.
