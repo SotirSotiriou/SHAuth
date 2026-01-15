@@ -14,7 +14,7 @@ When a player tries to connect to a server, SHAuth contacts the server and **ver
 
 
 # How to use it
-1. An operator first creates a key tied to your account by doing **/shauth authorize <username>**.
+1. An operator first creates a key tied to your account by doing **/shauth authorize \<username>**.
 2. The player enters the key in in the server's properties menu under the server address.
 
 
