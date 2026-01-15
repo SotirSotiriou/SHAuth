@@ -1,5 +1,5 @@
 # SHAuth
-## Modrinth: https://modrinth.com/mod/shauth
+Modrinth: https://modrinth.com/mod/shauth
 
 # Usage
 This mod provides **a more advanced way to protect your server**. It is used on cracked servers in order to prevent account stealing and player coordinate leakage.
