@@ -12,7 +12,7 @@ When a player tries to connect to a server, SHAuth contacts the server and **ver
 
 
 # What it safeguards against
-- In cracked servers (online-mode=false) anyone can pick any username and impersonate another player. SHAuth **prevents attackers from joining as someone else**.
+- In online-mode=false servers anyone can pick any username and impersonate another player. SHAuth **prevents attackers from joining as someone else**.
 - Most log-in systems require you to first connect to the server and then log-in. This process allows an attacker to access information like the player's cordinates, which can be frustrating in competitive servers. However, SHAuth **requires valid credentials** before granting access.
 
 
