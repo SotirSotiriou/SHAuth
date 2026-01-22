@@ -2,7 +2,7 @@
 Modrinth: https://modrinth.com/mod/shauth
 
 # Usage
-This mod provides **a more advanced way to protect your server**. It is used on cracked servers in order to prevent account stealing and player coordinate leakage.
+This mod provides **a more advanced way to protect your server**. It is used on servers that have online-mode to false in order to prevent account stealing and player coordinate leakage.
 
 # How it works
 When a player tries to connect to a server, SHAuth contacts the server and **verifies** that the connecting player provides a valid key tied to their username. If the key is valid, the connection proceeds, otherwise the player is **kicked**.
