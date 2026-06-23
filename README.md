@@ -25,7 +25,8 @@ When a player tries to connect to a server, SHAuth contacts the server and **ver
 
 
 # Commands
-- **/shauth authorize \<username>** - Assigns a key to a player and authorizes them.
-- **/shauth unauthorize \<username>** - Revokes authorization for a player.
-- **/shauth reset \<username>** - Resets the key associated with a player (useful if the key gets leaked).
-- **/shauth list** - Displays authorized users.
+- **/shauth authorize <username>** - Assigns a key to a player which grants them access to the server.
+- **/shauth unauthorize <username>** - Invalidates the key assigned to a player which revokes their access to the server.
+- **/shauth reset <username>** - Reassigns a key to a player, invalidating the old one (useful if the key gets leaked).
+- **/shauth list** - Shows the list of players which have been assigned keys.
+- **/shauth help** - Shows a message containing all the commands.
